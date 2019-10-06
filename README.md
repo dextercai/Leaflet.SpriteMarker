@@ -6,13 +6,13 @@ This extension will help to create it simplely.
 # Example			
 ```
 var MarkerOption = {
-		url: 'example.png',
-        size: {width:40, height:38},
-        origin: {x:0, y:48},
-        anchor: {x:20, y:18}
+url: 'example.png',
+size: {width:40, height:38},
+origin: {x:0, y:48},
+anchor: {x:20, y:18}
 };
 var SpriteMarker = L.Marker.SpriteMarker([0,0],MarkerOption);
 SpriteMarker.setTo(map);
 ```
-
-		
+There are examples at the examples folder like below.
+[./examples/SpriteMarkerExample.html](https://dextercai.github.io/Leaflet.SpriteMarker/example/SpriteMarkerExample.html)
